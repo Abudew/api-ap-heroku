@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'https://labo1-2.netlify.app/'
+        origin: 'https://api-ap-herokuuu.herokuapp.com/'
     })
 );
 app.options('*', cors());
